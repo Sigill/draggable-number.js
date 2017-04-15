@@ -24,6 +24,6 @@ describe("DraggableNumberElement.preventSelection", function() {
   it("Should remove preventSelection when passed false", function() {
     document.body.style['user-select'] = 'none';
     this.el._preventSelection(false);
-    document.body.style['user-select'].should.equal('all');
+    document.body.style['user-select'].should.equal('text');
   });
 });

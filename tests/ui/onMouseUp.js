@@ -32,6 +32,6 @@ describe("DraggableNumberElement._onMouseUp", function() {
     document.body.style['user-select'] = 'none';
     this.el._onMouseUp(null);
 
-    document.body.style['user-select'].should.equal('all');
+    document.body.style['user-select'].should.equal('text');
   });
 });

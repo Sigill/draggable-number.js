@@ -194,7 +194,7 @@ DraggableNumber.prototype = {
   _preventSelection: function (prevent) {
     var value = 'none';
     if (prevent === false) {
-      value = 'all';
+      value = 'text';
     }
 
     document.body.style['-moz-user-select'] = value;
